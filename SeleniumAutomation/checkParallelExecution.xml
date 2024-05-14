@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2"  parallel="tests">
+	
+  <test  name="ChromeTest" >
+    <classes>
+      <class name="tests.TestingKeywordPriority"/>
+      <class name="tests.TestingKeywordEnabled"/>
+      <class name="tests.TestingKeywordTimeOut"/>
+      <class name="tests.AmezonTest"/>
+      <class name="tests.TestingKeywordInvocationCount"/>
+      <class name="tests.TestingKeyworddependsOnMethods"/>
+      <class name="tests.TestingAnnotation"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test  name="FirefoxTest" >
+    <classes>
+      <class name="tests.TestingKeywordPriority"/>
+      <class name="tests.TestingKeywordEnabled"/>
+      <class name="tests.TestingKeywordTimeOut"/>
+      <class name="tests.AmezonTest"/>
+      <class name="tests.TestingKeywordInvocationCount"/>
+      <class name="tests.TestingKeyworddependsOnMethods"/>
+      <class name="tests.TestingAnnotation"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->

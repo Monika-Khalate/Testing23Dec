@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="50" passed="30" failed="16" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-25T16:02:34 IST" name="Suite" finished-at="2024-04-25T16:03:45 IST" duration-ms="70694">
+    <groups>
+    </groups>
+    <test started-at="2024-04-25T16:02:34 IST" name="ChromeTest" finished-at="2024-04-25T16:03:44 IST" duration-ms="70276">
+      <class name="tests.TestingKeyworddependsOnMethods">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TestingKeyworddependsOnMethods@5656be13]" started-at="2024-04-25T16:02:34 IST" name="beforeTest" finished-at="2024-04-25T16:02:34 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestingKeyworddependsOnMethods@5656be13]" started-at="2024-04-25T16:02:35 IST" name="beforeClass" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeyworddependsOnMethods@5656be13]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:-2, instance:tests.TestingKeyworddependsOnMethods@5656be13]" started-at="2024-04-25T16:02:35 IST" name="test2" finished-at="2024-04-25T16:02:35 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeyworddependsOnMethods@5656be13]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeyworddependsOnMethods@5656be13]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:0, instance:tests.TestingKeyworddependsOnMethods@5656be13]" started-at="2024-04-25T16:02:35 IST" name="test3" finished-at="2024-04-25T16:02:35 IST" duration-ms="7" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at tests.TestingKeyworddependsOnMethods.test3(TestingKeyworddependsOnMethods.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeyworddependsOnMethods@5656be13]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test1()[pri:1, instance:tests.TestingKeyworddependsOnMethods@5656be13]" started-at="2024-04-25T16:03:44 IST" name="test1" finished-at="2024-04-25T16:03:44 IST" depends-on-methods="tests.TestingKeyworddependsOnMethods.test3" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestingKeyworddependsOnMethods.test1()[pri:1, instance:tests.TestingKeyworddependsOnMethods@5656be13] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestingKeyworddependsOnMethods.test1()[pri:1, instance:tests.TestingKeyworddependsOnMethods@5656be13] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeyworddependsOnMethods@5656be13]" started-at="2024-04-25T16:03:44 IST" name="beforeMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test4()[pri:4, instance:tests.TestingKeyworddependsOnMethods@5656be13]" started-at="2024-04-25T16:03:44 IST" name="test4" finished-at="2024-04-25T16:03:44 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeyworddependsOnMethods@5656be13]" started-at="2024-04-25T16:03:44 IST" name="afterMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.TestingKeyworddependsOnMethods@5656be13]" started-at="2024-04-25T16:03:44 IST" name="afterClass" finished-at="2024-04-25T16:03:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.TestingKeyworddependsOnMethods@5656be13]" started-at="2024-04-25T16:03:44 IST" name="afterTest" finished-at="2024-04-25T16:03:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TestingKeyworddependsOnMethods -->
+      <class name="tests.TestingKeywordPriority">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TestingKeywordPriority@7cc0cdad]" started-at="2024-04-25T16:02:34 IST" name="beforeTest" finished-at="2024-04-25T16:02:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestingKeywordPriority@7cc0cdad]" started-at="2024-04-25T16:02:34 IST" name="beforeClass" finished-at="2024-04-25T16:02:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordPriority@7cc0cdad]" started-at="2024-04-25T16:02:34 IST" name="beforeMethod" finished-at="2024-04-25T16:02:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:-2, instance:tests.TestingKeywordPriority@7cc0cdad]" started-at="2024-04-25T16:02:34 IST" name="test2" finished-at="2024-04-25T16:02:35 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordPriority@7cc0cdad]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordPriority@7cc0cdad]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:0, instance:tests.TestingKeywordPriority@7cc0cdad]" started-at="2024-04-25T16:02:35 IST" name="test3" finished-at="2024-04-25T16:02:35 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordPriority@7cc0cdad]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordPriority@7cc0cdad]" started-at="2024-04-25T16:03:41 IST" name="beforeMethod" finished-at="2024-04-25T16:03:41 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:1, instance:tests.TestingKeywordPriority@7cc0cdad]" started-at="2024-04-25T16:03:41 IST" name="test1" finished-at="2024-04-25T16:03:41 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordPriority@7cc0cdad]" started-at="2024-04-25T16:03:41 IST" name="afterMethod" finished-at="2024-04-25T16:03:41 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordPriority@7cc0cdad]" started-at="2024-04-25T16:03:44 IST" name="beforeMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test4()[pri:4, instance:tests.TestingKeywordPriority@7cc0cdad]" started-at="2024-04-25T16:03:44 IST" name="test4" finished-at="2024-04-25T16:03:44 IST" duration-ms="6" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [www.facebook.com/Home] but found [www.facebook.com],
+expected [Facebook123] but found [Facebook]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [www.facebook.com/Home] but found [www.facebook.com],
+expected [Facebook123] but found [Facebook]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at tests.TestingKeywordPriority.test4(TestingKeywordPriority.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordPriority@7cc0cdad]" started-at="2024-04-25T16:03:44 IST" name="afterMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.TestingKeywordPriority@7cc0cdad]" started-at="2024-04-25T16:03:44 IST" name="afterClass" finished-at="2024-04-25T16:03:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.TestingKeywordPriority@7cc0cdad]" started-at="2024-04-25T16:03:44 IST" name="afterTest" finished-at="2024-04-25T16:03:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TestingKeywordPriority -->
+      <class name="tests.AmezonTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-04-25T16:02:35 IST" name="launchBrowser" finished-at="2024-04-25T16:02:58 IST" duration-ms="22214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchForgotPasswordPage()[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-04-25T16:02:58 IST" name="launchForgotPasswordPage" finished-at="2024-04-25T16:03:26 IST" duration-ms="28676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchForgotPasswordPage -->
+        <test-method signature="verifyErrorMessageWhenPasswordFunctionalityIsUsed()[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-04-25T16:03:26 IST" name="verifyErrorMessageWhenPasswordFunctionalityIsUsed" finished-at="2024-04-25T16:03:27 IST" duration-ms="562" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='textl']"}
+  (Session info: chrome=124.0.6367.61)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f30bfb31b73ab4cc773b2ee0920a48a, findElement {using=xpath, value=//input[@type='textl']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64049}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64049/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f30bfb31b73ab4cc773b2ee0920a48a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='textl']"}
+  (Session info: chrome=124.0.6367.61)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f30bfb31b73ab4cc773b2ee0920a48a, findElement {using=xpath, value=//input[@type='textl']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64049}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64049/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f30bfb31b73ab4cc773b2ee0920a48a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+at pom.FbForgotPassword.sendEmailOrPhoneNo(FbForgotPassword.java:50)
+at tests.AmezonTest.verifyErrorMessageWhenPasswordFunctionalityIsUsed(AmezonTest.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageWhenPasswordFunctionalityIsUsed -->
+        <test-method is-config="true" signature="CaptureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-04-25T16:03:27 IST" name="CaptureScreenshotOfFailedTest" finished-at="2024-04-25T16:03:27 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaptureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="launchForgotPasswordPage()[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-04-25T16:03:27 IST" name="launchForgotPasswordPage" finished-at="2024-04-25T16:03:38 IST" duration-ms="11511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchForgotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-04-25T16:03:38 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-04-25T16:03:39 IST" duration-ms="408" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='textl']"}
+  (Session info: chrome=124.0.6367.61)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f30bfb31b73ab4cc773b2ee0920a48a, findElement {using=xpath, value=//input[@type='textl']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64049}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64049/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f30bfb31b73ab4cc773b2ee0920a48a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='textl']"}
+  (Session info: chrome=124.0.6367.61)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9f30bfb31b73ab4cc773b2ee0920a48a, findElement {using=xpath, value=//input[@type='textl']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64049}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64049/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9f30bfb31b73ab4cc773b2ee0920a48a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+at pom.FbForgotPassword.sendEmailOrPhoneNo(FbForgotPassword.java:50)
+at tests.AmezonTest.verifyPasswordShouldBeChangedSuccessfully(AmezonTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="CaptureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-04-25T16:03:39 IST" name="CaptureScreenshotOfFailedTest" finished-at="2024-04-25T16:03:39 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaptureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.AmezonTest@55141def]" started-at="2024-04-25T16:03:39 IST" name="closeBrowser" finished-at="2024-04-25T16:03:41 IST" duration-ms="2438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.AmezonTest -->
+      <class name="tests.TestingKeywordInvocationCount">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:02:34 IST" name="beforeTest" finished-at="2024-04-25T16:02:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:02:35 IST" name="beforeClass" finished-at="2024-04-25T16:02:35 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:-2, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:02:35 IST" name="test2" finished-at="2024-04-25T16:02:35 IST" duration-ms="62" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [www.facebook.com/Home] but found [www.facebook.com],
+expected [Facebook-Home page] but found [Facebook]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [www.facebook.com/Home] but found [www.facebook.com],
+expected [Facebook-Home page] but found [Facebook]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at tests.TestingKeywordInvocationCount.test2(TestingKeywordInvocationCount.java:80)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:02:35 IST" name="test3" finished-at="2024-04-25T16:02:35 IST" duration-ms="12" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [www.facebook.com/setting] but found [www.facebook.com],
+expected [Facebook-setting page] but found [Facebook]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [www.facebook.com/setting] but found [www.facebook.com],
+expected [Facebook-setting page] but found [Facebook]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at tests.TestingKeywordInvocationCount.test3(TestingKeywordInvocationCount.java:97)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:03:44 IST" name="beforeMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:1, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:03:44 IST" name="test1" finished-at="2024-04-25T16:03:44 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:03:44 IST" name="afterMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:03:44 IST" name="beforeMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:1, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:03:44 IST" name="test1" finished-at="2024-04-25T16:03:44 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:03:44 IST" name="afterMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:03:44 IST" name="beforeMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:1, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:03:44 IST" name="test1" finished-at="2024-04-25T16:03:44 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:03:44 IST" name="afterMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:03:44 IST" name="beforeMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test4()[pri:4, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:03:44 IST" name="test4" finished-at="2024-04-25T16:03:44 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:03:44 IST" name="afterMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:03:44 IST" name="afterClass" finished-at="2024-04-25T16:03:44 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.TestingKeywordInvocationCount@55182842]" started-at="2024-04-25T16:03:44 IST" name="afterTest" finished-at="2024-04-25T16:03:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TestingKeywordInvocationCount -->
+      <class name="tests.TestingKeywordEnabled">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TestingKeywordEnabled@1aafa419]" started-at="2024-04-25T16:02:34 IST" name="beforeTest" finished-at="2024-04-25T16:02:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestingKeywordEnabled@1aafa419]" started-at="2024-04-25T16:02:35 IST" name="beforeClass" finished-at="2024-04-25T16:02:35 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordEnabled@1aafa419]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:-2, instance:tests.TestingKeywordEnabled@1aafa419]" started-at="2024-04-25T16:02:35 IST" name="test2" finished-at="2024-04-25T16:02:35 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordEnabled@1aafa419]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordEnabled@1aafa419]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:0, instance:tests.TestingKeywordEnabled@1aafa419]" started-at="2024-04-25T16:02:35 IST" name="test3" finished-at="2024-04-25T16:02:35 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordEnabled@1aafa419]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordEnabled@1aafa419]" started-at="2024-04-25T16:03:44 IST" name="beforeMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test4()[pri:4, instance:tests.TestingKeywordEnabled@1aafa419]" started-at="2024-04-25T16:03:44 IST" name="test4" finished-at="2024-04-25T16:03:44 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordEnabled@1aafa419]" started-at="2024-04-25T16:03:44 IST" name="afterMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.TestingKeywordEnabled@1aafa419]" started-at="2024-04-25T16:03:44 IST" name="afterClass" finished-at="2024-04-25T16:03:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.TestingKeywordEnabled@1aafa419]" started-at="2024-04-25T16:03:44 IST" name="afterTest" finished-at="2024-04-25T16:03:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TestingKeywordEnabled -->
+      <class name="tests.TestingAnnotation">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TestingAnnotation@4218d6a3]" started-at="2024-04-25T16:02:34 IST" name="beforeTest" finished-at="2024-04-25T16:02:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestingAnnotation@4218d6a3]" started-at="2024-04-25T16:02:35 IST" name="beforeClass" finished-at="2024-04-25T16:02:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingAnnotation@4218d6a3]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test()[pri:0, instance:tests.TestingAnnotation@4218d6a3]" started-at="2024-04-25T16:02:35 IST" name="test" finished-at="2024-04-25T16:02:35 IST" duration-ms="11" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [Data] but found [Data]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [Data] but found [Data]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failEquals(Assert.java:1041)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:147)
+at org.testng.Assert.assertNotEquals(Assert.java:1531)
+at org.testng.Assert.assertNotEquals(Assert.java:1535)
+at tests.TestingAnnotation.test(TestingAnnotation.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingAnnotation@4218d6a3]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.TestingAnnotation@4218d6a3]" started-at="2024-04-25T16:02:35 IST" name="afterClass" finished-at="2024-04-25T16:02:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.TestingAnnotation@4218d6a3]" started-at="2024-04-25T16:03:44 IST" name="afterTest" finished-at="2024-04-25T16:03:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TestingAnnotation -->
+      <class name="tests.TestingKeywordTimeOut">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TestingKeywordTimeOut@47eaca72]" started-at="2024-04-25T16:02:34 IST" name="beforeTest" finished-at="2024-04-25T16:02:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestingKeywordTimeOut@47eaca72]" started-at="2024-04-25T16:02:35 IST" name="beforeClass" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordTimeOut@47eaca72]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:-2, instance:tests.TestingKeywordTimeOut@47eaca72]" started-at="2024-04-25T16:02:35 IST" name="test2" finished-at="2024-04-25T16:02:35 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordTimeOut@47eaca72]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordTimeOut@47eaca72]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:0, instance:tests.TestingKeywordTimeOut@47eaca72]" started-at="2024-04-25T16:02:35 IST" name="test3" finished-at="2024-04-25T16:02:35 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordTimeOut@47eaca72]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordTimeOut@47eaca72]" started-at="2024-04-25T16:03:41 IST" name="beforeMethod" finished-at="2024-04-25T16:03:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:1, instance:tests.TestingKeywordTimeOut@47eaca72]" started-at="2024-04-25T16:03:41 IST" name="test1" finished-at="2024-04-25T16:03:44 IST" duration-ms="3023" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.TestingKeywordTimeOut.test1() didn't finish within the time-out 3000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.TestingKeywordTimeOut.test1() didn't finish within the time-out 3000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordTimeOut@47eaca72]" started-at="2024-04-25T16:03:44 IST" name="afterMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordTimeOut@47eaca72]" started-at="2024-04-25T16:03:44 IST" name="beforeMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test4()[pri:4, instance:tests.TestingKeywordTimeOut@47eaca72]" started-at="2024-04-25T16:03:44 IST" name="test4" finished-at="2024-04-25T16:03:44 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordTimeOut@47eaca72]" started-at="2024-04-25T16:03:44 IST" name="afterMethod" finished-at="2024-04-25T16:03:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.TestingKeywordTimeOut@47eaca72]" started-at="2024-04-25T16:03:44 IST" name="afterClass" finished-at="2024-04-25T16:03:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.TestingKeywordTimeOut@47eaca72]" started-at="2024-04-25T16:03:44 IST" name="afterTest" finished-at="2024-04-25T16:03:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.TestingKeywordTimeOut -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-04-25T16:02:34 IST" name="FirefoxTest" finished-at="2024-04-25T16:03:45 IST" duration-ms="70694">
+      <class name="tests.TestingKeyworddependsOnMethods">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1]" started-at="2024-04-25T16:02:34 IST" name="beforesuite" finished-at="2024-04-25T16:02:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1]" started-at="2024-04-25T16:02:34 IST" name="beforeTest" finished-at="2024-04-25T16:02:34 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1]" started-at="2024-04-25T16:02:35 IST" name="beforeClass" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:-2, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1]" started-at="2024-04-25T16:02:35 IST" name="test2" finished-at="2024-04-25T16:02:35 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:0, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1]" started-at="2024-04-25T16:02:35 IST" name="test3" finished-at="2024-04-25T16:02:35 IST" duration-ms="10" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at tests.TestingKeyworddependsOnMethods.test3(TestingKeyworddependsOnMethods.java:68)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="test1()[pri:1, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1]" started-at="2024-04-25T16:03:45 IST" name="test1" finished-at="2024-04-25T16:03:45 IST" depends-on-methods="tests.TestingKeyworddependsOnMethods.test3" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TestingKeyworddependsOnMethods.test1()[pri:1, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TestingKeyworddependsOnMethods.test1()[pri:1, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1]" started-at="2024-04-25T16:03:45 IST" name="beforeMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test4()[pri:4, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1]" started-at="2024-04-25T16:03:45 IST" name="test4" finished-at="2024-04-25T16:03:45 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1]" started-at="2024-04-25T16:03:45 IST" name="afterMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1]" started-at="2024-04-25T16:03:45 IST" name="afterClass" finished-at="2024-04-25T16:03:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1]" started-at="2024-04-25T16:03:45 IST" name="afterTest" finished-at="2024-04-25T16:03:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.TestingKeyworddependsOnMethods@3b69e7d1]" started-at="2024-04-25T16:03:46 IST" name="afterSuite" finished-at="2024-04-25T16:03:46 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.TestingKeyworddependsOnMethods -->
+      <class name="tests.TestingKeywordPriority">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:02:34 IST" name="beforesuite" finished-at="2024-04-25T16:02:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:02:34 IST" name="beforeTest" finished-at="2024-04-25T16:02:34 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:02:34 IST" name="beforeClass" finished-at="2024-04-25T16:02:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:02:34 IST" name="beforeMethod" finished-at="2024-04-25T16:02:34 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:-2, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:02:34 IST" name="test2" finished-at="2024-04-25T16:02:35 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:0, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:02:35 IST" name="test3" finished-at="2024-04-25T16:02:35 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:03:41 IST" name="beforeMethod" finished-at="2024-04-25T16:03:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:1, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:03:41 IST" name="test1" finished-at="2024-04-25T16:03:41 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:03:41 IST" name="afterMethod" finished-at="2024-04-25T16:03:42 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:03:45 IST" name="beforeMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test4()[pri:4, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:03:45 IST" name="test4" finished-at="2024-04-25T16:03:45 IST" duration-ms="17" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [www.facebook.com/Home] but found [www.facebook.com],
+expected [Facebook123] but found [Facebook]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [www.facebook.com/Home] but found [www.facebook.com],
+expected [Facebook123] but found [Facebook]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at tests.TestingKeywordPriority.test4(TestingKeywordPriority.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:03:45 IST" name="afterMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:03:45 IST" name="afterClass" finished-at="2024-04-25T16:03:45 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:03:45 IST" name="afterTest" finished-at="2024-04-25T16:03:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.TestingKeywordPriority@327514f]" started-at="2024-04-25T16:03:46 IST" name="afterSuite" finished-at="2024-04-25T16:03:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.TestingKeywordPriority -->
+      <class name="tests.AmezonTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-04-25T16:02:35 IST" name="launchBrowser" finished-at="2024-04-25T16:02:58 IST" duration-ms="23103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchForgotPasswordPage()[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-04-25T16:02:58 IST" name="launchForgotPasswordPage" finished-at="2024-04-25T16:03:26 IST" duration-ms="27895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchForgotPasswordPage -->
+        <test-method signature="verifyErrorMessageWhenPasswordFunctionalityIsUsed()[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-04-25T16:03:26 IST" name="verifyErrorMessageWhenPasswordFunctionalityIsUsed" finished-at="2024-04-25T16:03:28 IST" duration-ms="1537" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='textl']"}
+  (Session info: chrome=124.0.6367.61)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f143029cbd025b888fee4981cbee69b4, findElement {using=xpath, value=//input[@type='textl']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64048}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64048/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f143029cbd025b888fee4981cbee69b4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='textl']"}
+  (Session info: chrome=124.0.6367.61)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f143029cbd025b888fee4981cbee69b4, findElement {using=xpath, value=//input[@type='textl']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64048}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64048/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f143029cbd025b888fee4981cbee69b4
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+at pom.FbForgotPassword.sendEmailOrPhoneNo(FbForgotPassword.java:50)
+at tests.AmezonTest.verifyErrorMessageWhenPasswordFunctionalityIsUsed(AmezonTest.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageWhenPasswordFunctionalityIsUsed -->
+        <test-method is-config="true" signature="CaptureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-04-25T16:03:28 IST" name="CaptureScreenshotOfFailedTest" finished-at="2024-04-25T16:03:28 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaptureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="launchForgotPasswordPage()[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-04-25T16:03:28 IST" name="launchForgotPasswordPage" finished-at="2024-04-25T16:03:39 IST" duration-ms="11456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchForgotPasswordPage -->
+        <test-method signature="verifyPasswordShouldBeChangedSuccessfully()[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-04-25T16:03:39 IST" name="verifyPasswordShouldBeChangedSuccessfully" finished-at="2024-04-25T16:03:40 IST" duration-ms="318" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='textl']"}
+  (Session info: chrome=124.0.6367.61)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f143029cbd025b888fee4981cbee69b4, findElement {using=xpath, value=//input[@type='textl']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64048}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64048/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f143029cbd025b888fee4981cbee69b4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='textl']"}
+  (Session info: chrome=124.0.6367.61)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f143029cbd025b888fee4981cbee69b4, findElement {using=xpath, value=//input[@type='textl']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.61, chrome: {chromedriverVersion: 124.0.6367.78 (a087f2dd364d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64048}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64048/devtoo..., se:cdpVersion: 124.0.6367.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f143029cbd025b888fee4981cbee69b4
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy19.sendKeys(Unknown Source)
+at pom.FbForgotPassword.sendEmailOrPhoneNo(FbForgotPassword.java:50)
+at tests.AmezonTest.verifyPasswordShouldBeChangedSuccessfully(AmezonTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordShouldBeChangedSuccessfully -->
+        <test-method is-config="true" signature="CaptureScreenshotOfFailedTest()[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-04-25T16:03:40 IST" name="CaptureScreenshotOfFailedTest" finished-at="2024-04-25T16:03:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CaptureScreenshotOfFailedTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.AmezonTest@4c12331b]" started-at="2024-04-25T16:03:40 IST" name="closeBrowser" finished-at="2024-04-25T16:03:41 IST" duration-ms="1789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.AmezonTest -->
+      <class name="tests.TestingKeywordInvocationCount">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:02:34 IST" name="beforesuite" finished-at="2024-04-25T16:02:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:02:34 IST" name="beforeTest" finished-at="2024-04-25T16:02:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:02:35 IST" name="beforeClass" finished-at="2024-04-25T16:02:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:-2, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:02:35 IST" name="test2" finished-at="2024-04-25T16:02:35 IST" duration-ms="62" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [www.facebook.com/Home] but found [www.facebook.com],
+expected [Facebook-Home page] but found [Facebook]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [www.facebook.com/Home] but found [www.facebook.com],
+expected [Facebook-Home page] but found [Facebook]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at tests.TestingKeywordInvocationCount.test2(TestingKeywordInvocationCount.java:80)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:02:35 IST" name="test3" finished-at="2024-04-25T16:02:35 IST" duration-ms="11" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [www.facebook.com/setting] but found [www.facebook.com],
+expected [Facebook-setting page] but found [Facebook]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [www.facebook.com/setting] but found [www.facebook.com],
+expected [Facebook-setting page] but found [Facebook]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at tests.TestingKeywordInvocationCount.test3(TestingKeywordInvocationCount.java:97)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:03:45 IST" name="beforeMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:1, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:03:45 IST" name="test1" finished-at="2024-04-25T16:03:45 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:03:45 IST" name="afterMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:03:45 IST" name="beforeMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:1, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:03:45 IST" name="test1" finished-at="2024-04-25T16:03:45 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:03:45 IST" name="afterMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:03:45 IST" name="beforeMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:1, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:03:45 IST" name="test1" finished-at="2024-04-25T16:03:45 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:03:45 IST" name="afterMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:03:45 IST" name="beforeMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test4()[pri:4, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:03:45 IST" name="test4" finished-at="2024-04-25T16:03:45 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:03:45 IST" name="afterMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:03:45 IST" name="afterClass" finished-at="2024-04-25T16:03:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:03:45 IST" name="afterTest" finished-at="2024-04-25T16:03:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.TestingKeywordInvocationCount@7586beff]" started-at="2024-04-25T16:03:46 IST" name="afterSuite" finished-at="2024-04-25T16:03:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.TestingKeywordInvocationCount -->
+      <class name="tests.TestingAnnotation">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:tests.TestingAnnotation@815b41f]" started-at="2024-04-25T16:02:34 IST" name="beforesuite" finished-at="2024-04-25T16:02:34 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TestingAnnotation@815b41f]" started-at="2024-04-25T16:02:34 IST" name="beforeTest" finished-at="2024-04-25T16:02:34 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestingAnnotation@815b41f]" started-at="2024-04-25T16:02:35 IST" name="beforeClass" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingAnnotation@815b41f]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test()[pri:0, instance:tests.TestingAnnotation@815b41f]" started-at="2024-04-25T16:02:35 IST" name="test" finished-at="2024-04-25T16:02:35 IST" duration-ms="10" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [Data] but found [Data]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [Data] but found [Data]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failEquals(Assert.java:1041)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:147)
+at org.testng.Assert.assertNotEquals(Assert.java:1531)
+at org.testng.Assert.assertNotEquals(Assert.java:1535)
+at tests.TestingAnnotation.test(TestingAnnotation.java:58)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingAnnotation@815b41f]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.TestingAnnotation@815b41f]" started-at="2024-04-25T16:02:35 IST" name="afterClass" finished-at="2024-04-25T16:02:35 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.TestingAnnotation@815b41f]" started-at="2024-04-25T16:03:45 IST" name="afterTest" finished-at="2024-04-25T16:03:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.TestingAnnotation@815b41f]" started-at="2024-04-25T16:03:46 IST" name="afterSuite" finished-at="2024-04-25T16:03:46 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.TestingAnnotation -->
+      <class name="tests.TestingKeywordTimeOut">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:02:34 IST" name="beforesuite" finished-at="2024-04-25T16:02:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:02:34 IST" name="beforeTest" finished-at="2024-04-25T16:02:34 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:02:35 IST" name="beforeClass" finished-at="2024-04-25T16:02:35 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:-2, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:02:35 IST" name="test2" finished-at="2024-04-25T16:02:35 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:0, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:02:35 IST" name="test3" finished-at="2024-04-25T16:02:35 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:03:42 IST" name="beforeMethod" finished-at="2024-04-25T16:03:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:1, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:03:42 IST" name="test1" finished-at="2024-04-25T16:03:45 IST" duration-ms="3035" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.TestingKeywordTimeOut.test1() didn't finish within the time-out 3000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.TestingKeywordTimeOut.test1() didn't finish within the time-out 3000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:03:45 IST" name="afterMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:03:45 IST" name="beforeMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test4()[pri:4, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:03:45 IST" name="test4" finished-at="2024-04-25T16:03:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:03:45 IST" name="afterMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:03:45 IST" name="afterClass" finished-at="2024-04-25T16:03:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:03:45 IST" name="afterTest" finished-at="2024-04-25T16:03:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.TestingKeywordTimeOut@1165b38]" started-at="2024-04-25T16:03:46 IST" name="afterSuite" finished-at="2024-04-25T16:03:46 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.TestingKeywordTimeOut -->
+      <class name="tests.TestingKeywordEnabled">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:tests.TestingKeywordEnabled@5b12b668]" started-at="2024-04-25T16:02:34 IST" name="beforesuite" finished-at="2024-04-25T16:02:34 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:tests.TestingKeywordEnabled@5b12b668]" started-at="2024-04-25T16:02:34 IST" name="beforeTest" finished-at="2024-04-25T16:02:34 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:tests.TestingKeywordEnabled@5b12b668]" started-at="2024-04-25T16:02:35 IST" name="beforeClass" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordEnabled@5b12b668]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:-2, instance:tests.TestingKeywordEnabled@5b12b668]" started-at="2024-04-25T16:02:35 IST" name="test2" finished-at="2024-04-25T16:02:35 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordEnabled@5b12b668]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordEnabled@5b12b668]" started-at="2024-04-25T16:02:35 IST" name="beforeMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test3()[pri:0, instance:tests.TestingKeywordEnabled@5b12b668]" started-at="2024-04-25T16:02:35 IST" name="test3" finished-at="2024-04-25T16:02:35 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordEnabled@5b12b668]" started-at="2024-04-25T16:02:35 IST" name="afterMethod" finished-at="2024-04-25T16:02:35 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:tests.TestingKeywordEnabled@5b12b668]" started-at="2024-04-25T16:03:45 IST" name="beforeMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test4()[pri:4, instance:tests.TestingKeywordEnabled@5b12b668]" started-at="2024-04-25T16:03:45 IST" name="test4" finished-at="2024-04-25T16:03:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:tests.TestingKeywordEnabled@5b12b668]" started-at="2024-04-25T16:03:45 IST" name="afterMethod" finished-at="2024-04-25T16:03:45 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.TestingKeywordEnabled@5b12b668]" started-at="2024-04-25T16:03:45 IST" name="afterClass" finished-at="2024-04-25T16:03:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.TestingKeywordEnabled@5b12b668]" started-at="2024-04-25T16:03:45 IST" name="afterTest" finished-at="2024-04-25T16:03:45 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.TestingKeywordEnabled@5b12b668]" started-at="2024-04-25T16:03:46 IST" name="afterSuite" finished-at="2024-04-25T16:03:46 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.TestingKeywordEnabled -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
